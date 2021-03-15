@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
                     wallModelList.clear();
                     fetchWall();
                 }
-            })
+            });
 
         }
 
