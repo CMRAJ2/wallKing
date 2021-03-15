@@ -169,6 +169,15 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                }
+            });
+
+            alert.show();
+
         }
 
         return super.onOptionsItemSelected(item);
